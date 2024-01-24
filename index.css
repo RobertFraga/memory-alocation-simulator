@@ -1,0 +1,58 @@
+.main-container{
+    display: grid;
+    place-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(102, 102, 102);
+    z-index: 10;
+    
+}
+
+.function-container{
+    display: flex;
+}
+.containers{
+    padding: 0px;
+    border-radius:5px;
+    display: grid;
+    place-items: center;
+    width: 130px;
+    margin-right: 10px;
+    background-color: darkgray;
+}
+
+
+
+.memory-labels{
+    background-color: antiquewhite;
+    border-radius: 3px;
+    padding-left: 28px;
+    padding-right: 29px;
+}
+
+.register-labels{
+    background-color: antiquewhite;
+    border-radius: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+input[type=number]{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 70px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+input[type=button]{
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+input[type=number]:focus{
+    outline: none;
+}
